@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f4fd; /* Light blue background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff; /* White background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #003366; /* Deep blue for headings */
+}
+
+form {
+  background: #f0f8ff; /* Light blue for form background */
+  padding: 20px;
+  margin: 50px auto;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #003366; /* Deep blue for labels */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #5b9bd5; /* Light blue border */
+  background: #e6f1f8; /* Very light blue input background */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #0073e6; /* Medium blue for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+.recommendations {
+  margin-top: 20px;
+}
+
+.recommendations ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recommendation-item {
+  border: 1px solid #b3d7f2; /* Light blue border for recommendation items */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #f0f8ff; /* Light blue background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restaurant-details {
+  max-width: 70%;
+}
+
+.restaurant-name {
+  display: block;
+  font-size: 1.2em;
+  color: #003366; /* Deep blue for restaurant names */
+}
+
+.cuisines {
+  display: block;
+  color: #00509e; /* Medium blue for cuisines */
+}
+
+.city {
+  display: block;
+  color: #00509e; /* Medium blue for city details */
+}
+
+.rating {
+  font-weight: bold;
+  color: #003366; /* Deep blue for ratings */
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+.socials a {
+  margin: 0 10px;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+/* Button Styles */
+.go-back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0073e6; /* Medium blue button */
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+  background-color: #005bb5; /* Darker blue button on hover */
+}
